@@ -1,0 +1,35 @@
+#projects{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.project_list{
+    height: 70%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+#project{
+    height: 70%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+}
+#project:hover{
+    border: 2px solid white;
+    transform: scale(1.1);
+}
+#project button{
+    height: 50px;
+    width: 80px;
+    background-color: blueviolet;
+}

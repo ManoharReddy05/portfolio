@@ -1,0 +1,14 @@
+#socials ul{
+    display: flex;
+  }
+  
+  #socials li{
+    list-style: none;
+  }
+  #socials a i{
+    font-size: 40px;
+    margin-left :10px ;
+  }
+  #linkedin:hover{
+    color: rgb(10, 102, 194);
+  }
