@@ -27,9 +27,10 @@ form{
     width: 80px;
     margin: 8px;
     border: white 1px solid;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 #contact button:hover{
     border: white 1px solid;
     background-color: blueviolet;
+    transform: scale(1.1);
 }

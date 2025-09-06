@@ -2,16 +2,12 @@
     height: 100vh;
     text-align: center;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #about p{
     font-size: 35px;
 }
-#about img{
-    float: right;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    width: 30%;
-    float: right;
-    margin-right: 70px;
-}
+

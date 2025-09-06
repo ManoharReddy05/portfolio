@@ -1,6 +1,6 @@
 import Socials from '../Socials';
 import './Home.css';
-import pic from './dp.jpg'
+import pic from './pic1.jpg'
 const Header = () => {
     return (
         <header>
@@ -31,8 +31,8 @@ function Home() {
             <img src={pic} alt="" />
                 <div id="hero-section">
                     <Hero></Hero>
+                    <Socials></Socials>
                 </div>
-                <Socials></Socials>
             </div>
         </>
     );

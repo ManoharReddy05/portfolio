@@ -19,6 +19,7 @@
     height: 70%;
     width: 80%;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 10px;
@@ -31,5 +32,12 @@
 #project button{
     height: 50px;
     width: 80px;
+    margin-top: 50px;
     background-color: blueviolet;
+    text-decoration: none;
+    border: 10px;
+}
+#project button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }

@@ -6,8 +6,8 @@ const Contact = () =>{
             <h1>Let's Get in Touch</h1>
         <form action="">
             <div className='creds'>
-            <input type="text" placeholder='Full Name'/>
-            <input type="text" placeholder='Mail' />
+            <input type="text" placeholder='Enter Full Name'/>
+            <input type="text" placeholder='Enter Email' />
             </div>
             <textarea name="" id="" placeholder='Enter your message'></textarea>
             <button>Send</button>
